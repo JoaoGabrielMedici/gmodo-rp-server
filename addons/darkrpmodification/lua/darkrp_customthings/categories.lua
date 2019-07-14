@@ -21,3 +21,29 @@ DarkRP.createCategory{
 Add new categories under the next line!
 ---------------------------------------------------------------------------]]
 
+DarkRP.createCategory{
+    name = "Governo",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(0, 40, 255, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 2
+}
+
+DarkRP.createCategory{
+    name = "Criminosos",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(255, 0, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 1
+}
+
+DarkRP.createCategory{
+    name = "Cidadãos",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(0, 255, 131, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 1
+}
